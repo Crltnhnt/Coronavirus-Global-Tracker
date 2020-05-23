@@ -1,0 +1,73 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.navTitle {
+    display: flex;
+    color: aliceblue;
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11%;
+}
+
+.cases {
+    display: flex;
+    border: darkgrey;
+    margin: 5%;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: thick;
+    border: 100%;
+    padding: 5%;
+}
+
+.number {
+    display: flex;
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
